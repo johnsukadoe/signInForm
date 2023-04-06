@@ -1,0 +1,109 @@
+html, body{
+	margin:0;
+	background-color:  #215889;
+	font-family: 'Roboto', sans-serif;
+}
+.login{
+	margin:50px 376px 0 376px;
+	width:472px;
+	height:637px;
+	background-color:  #121317;
+}
+.sign-in{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 39px;
+	padding-left: 39px;
+	padding-top:62px;
+}
+
+.sign{
+	color:#979696;
+}
+.logo{
+	background-color: #df4a32;
+    transition: background-color 0.5s ease;	
+}
+.logo:hover{
+    background-color: #df6551;
+}
+
+.log {
+	margin:69px 35px 26px 35px;
+
+}
+.log1{
+    width: 344px;
+    height: 82px;
+    font-size:24px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border:0;
+    outline: none;
+    color:white;
+    background: url(user.png) no-repeat 344px 31px;
+    background-size: 24px;
+    background-color: #18191e;
+    transition: background-color 0.5s ease;
+}
+.log1:hover{
+	background-color: #262831;
+}
+.password{
+	margin:31px 35px 16px 35px;
+}
+.password1{
+	width: 344px;
+    height: 82px;
+    font-size:24px;
+    padding-left: 27px;
+    padding-right: 27px;
+    border:0;
+    outline: none;
+    color:white;
+    background: url(password.png) no-repeat 344px 31px;
+    background-size: 24px;
+    background-color: #18191e;
+    transition: background-color 0.5s ease;
+}
+.password1:hover{
+	background-color: #262831;
+}
+.cont-button{
+	margin:31px 35px 39px 35px;
+}
+.button{
+	width:403px;
+	height:80px;
+	background-color:#d29d41;
+	border:0;
+	outline:none;
+	font-size:24px;
+	color:#6c411b;
+	transition: background-color 0.5s ease;
+}
+.button:hover{
+	background-color: #e6bf7b;
+}
+.question{
+	margin:0px 35px 0px 35px;
+}
+.forgot{
+	color:#979696;
+	outline:none;
+	text-decoration: none;
+	transition: color 0.5s ease;
+}
+.forgot:hover{
+	color:#d29d41;
+}
+.register{
+	color:#979696;
+	outline:none;
+	text-decoration: none;
+	transition: color 0.5s ease;
+	padding-left:30px;
+}
+.register:hover{
+	color:#d29d41;
+}
